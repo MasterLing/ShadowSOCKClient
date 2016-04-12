@@ -1,0 +1,13 @@
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define HAS_STDINT_H
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#endif
+
+
+#endif /* PrefixHeader_pch */

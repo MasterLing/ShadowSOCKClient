@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		737A804E1CBCDF340099723D /* SSClientConfigure.m in Sources */ = {isa = PBXBuildFile; fileRef = 737A804D1CBCDF340099723D /* SSClientConfigure.m */; };
+		73A22DF61CB6B42D002AFFCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22DF51CB6B42D002AFFCC /* main.m */; };
+		73A22DF91CB6B42D002AFFCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22DF81CB6B42D002AFFCC /* AppDelegate.m */; };
+		73A22DFC1CB6B42D002AFFCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22DFB1CB6B42D002AFFCC /* ViewController.m */; };
+		73A22DFF1CB6B42D002AFFCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A22DFD1CB6B42D002AFFCC /* Main.storyboard */; };
+		73A22E011CB6B42D002AFFCC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73A22E001CB6B42D002AFFCC /* Assets.xcassets */; };
+		73A22E041CB6B42D002AFFCC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73A22E021CB6B42D002AFFCC /* LaunchScreen.storyboard */; };
+		73A22E0F1CB6B42D002AFFCC /* ShadowSOCKClientTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22E0E1CB6B42D002AFFCC /* ShadowSOCKClientTests.m */; };
+		73A22E1A1CB6B42D002AFFCC /* ShadowSOCKClientUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22E191CB6B42D002AFFCC /* ShadowSOCKClientUITests.m */; };
+		73A22E291CB6B4FE002AFFCC /* MyURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22E281CB6B4FE002AFFCC /* MyURLProtocol.m */; };
+		73A22E461CB6B575002AFFCC /* ev.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22E311CB6B575002AFFCC /* ev.c */; };
+		73A22EF81CB6BCB3002AFFCC /* atom.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EB91CB6BCB3002AFFCC /* atom.c */; };
+		73A22EF91CB6BCB3002AFFCC /* auth.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EBB1CB6BCB3002AFFCC /* auth.c */; };
+		73A22EFA1CB6BCB3002AFFCC /* CHANGES in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EBD1CB6BCB3002AFFCC /* CHANGES */; };
+		73A22EFB1CB6BCB3002AFFCC /* chunk.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EBE1CB6BCB3002AFFCC /* chunk.c */; };
+		73A22EFC1CB6BCB3002AFFCC /* client.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EC01CB6BCB3002AFFCC /* client.c */; };
+		73A22EFD1CB6BCB3002AFFCC /* config.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EC21CB6BCB3002AFFCC /* config.c */; };
+		73A22EFE1CB6BCB3002AFFCC /* config.sample in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EC41CB6BCB3002AFFCC /* config.sample */; };
+		73A22EFF1CB6BCB3002AFFCC /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EC51CB6BCB3002AFFCC /* COPYING */; };
+		73A22F001CB6BCB3002AFFCC /* diskcache.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EC61CB6BCB3002AFFCC /* diskcache.c */; };
+		73A22F011CB6BCB3002AFFCC /* dns.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EC81CB6BCB3002AFFCC /* dns.c */; };
+		73A22F021CB6BCB3002AFFCC /* event.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ECA1CB6BCB3002AFFCC /* event.c */; };
+		73A22F031CB6BCB3002AFFCC /* forbidden.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ECC1CB6BCB3002AFFCC /* forbidden.c */; };
+		73A22F041CB6BCB3002AFFCC /* forbidden.sample in Resources */ = {isa = PBXBuildFile; fileRef = 73A22ECE1CB6BCB3002AFFCC /* forbidden.sample */; };
+		73A22F051CB6BCB3002AFFCC /* fts_compat.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ECF1CB6BCB3002AFFCC /* fts_compat.c */; };
+		73A22F061CB6BCB3002AFFCC /* ftsimport.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ED11CB6BCB3002AFFCC /* ftsimport.c */; };
+		73A22F071CB6BCB3002AFFCC /* http_parse.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ED31CB6BCB3002AFFCC /* http_parse.c */; };
+		73A22F081CB6BCB3002AFFCC /* http.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ED51CB6BCB3002AFFCC /* http.c */; };
+		73A22F091CB6BCB3002AFFCC /* INSTALL in Resources */ = {isa = PBXBuildFile; fileRef = 73A22ED71CB6BCB3002AFFCC /* INSTALL */; };
+		73A22F0A1CB6BCB3002AFFCC /* io.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22ED81CB6BCB3002AFFCC /* io.c */; };
+		73A22F0B1CB6BCB3002AFFCC /* local.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EDA1CB6BCB3002AFFCC /* local.c */; };
+		73A22F0C1CB6BCB3002AFFCC /* localindex.html in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EDC1CB6BCB3002AFFCC /* localindex.html */; };
+		73A22F0D1CB6BCB3002AFFCC /* log.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EDD1CB6BCB3002AFFCC /* log.c */; };
+		73A22F0E1CB6BCB3002AFFCC /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EDF1CB6BCB3002AFFCC /* main.c */; };
+		73A22F0F1CB6BCB3002AFFCC /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE01CB6BCB3002AFFCC /* Makefile */; };
+		73A22F101CB6BCB3002AFFCC /* md5.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE11CB6BCB3002AFFCC /* md5.c */; };
+		73A22F111CB6BCB3002AFFCC /* md5import.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE31CB6BCB3002AFFCC /* md5import.c */; };
+		73A22F121CB6BCB3002AFFCC /* mingw.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE51CB6BCB3002AFFCC /* mingw.c */; };
+		73A22F131CB6BCB3002AFFCC /* object.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE71CB6BCB3002AFFCC /* object.c */; };
+		73A22F141CB6BCB3002AFFCC /* parse_time.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EE91CB6BCB3002AFFCC /* parse_time.c */; };
+		73A22F151CB6BCB3002AFFCC /* polipo.man in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EEC1CB6BCB3002AFFCC /* polipo.man */; };
+		73A22F161CB6BCB3002AFFCC /* polipo.texi in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EED1CB6BCB3002AFFCC /* polipo.texi */; };
+		73A22F171CB6BCB3002AFFCC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EEE1CB6BCB3002AFFCC /* README */; };
+		73A22F181CB6BCB3002AFFCC /* README.Windows in Resources */ = {isa = PBXBuildFile; fileRef = 73A22EEF1CB6BCB3002AFFCC /* README.Windows */; };
+		73A22F191CB6BCB3002AFFCC /* server.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EF01CB6BCB3002AFFCC /* server.c */; };
+		73A22F1A1CB6BCB3002AFFCC /* socks.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EF21CB6BCB3002AFFCC /* socks.c */; };
+		73A22F1B1CB6BCB3002AFFCC /* tunnel.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EF41CB6BCB3002AFFCC /* tunnel.c */; };
+		73A22F1C1CB6BCB3002AFFCC /* util.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22EF61CB6BCB3002AFFCC /* util.c */; };
+		73A22F7E1CB75443002AFFCC /* encrypt.c in Sources */ = {isa = PBXBuildFile; fileRef = 73A22F7C1CB75443002AFFCC /* encrypt.c */; };
+		73A22F841CB754C7002AFFCC /* table.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22F821CB754C7002AFFCC /* table.m */; };
+		73A22F8A1CB759B7002AFFCC /* local.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22F891CB759B7002AFFCC /* local.m */; };
+		73A22F8D1CB75B3E002AFFCC /* ShadowsocksRunner.m in Sources */ = {isa = PBXBuildFile; fileRef = 73A22F8C1CB75B3E002AFFCC /* ShadowsocksRunner.m */; };
+		906CD5AD36E16B727FEAD84D /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CC79A722E4B34CBFA592392 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		73A22E0B1CB6B42D002AFFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A22DE91CB6B42D002AFFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A22DF01CB6B42D002AFFCC;
+			remoteInfo = ShadowSOCKClient;
+		};
+		73A22E161CB6B42D002AFFCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 73A22DE91CB6B42D002AFFCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73A22DF01CB6B42D002AFFCC;
+			remoteInfo = ShadowSOCKClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D90E711250091876143EC98 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		737A804C1CBCDF340099723D /* SSClientConfigure.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSClientConfigure.h; sourceTree = "<group>"; };
+		737A804D1CBCDF340099723D /* SSClientConfigure.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSClientConfigure.m; sourceTree = "<group>"; };
+		73A22DF11CB6B42D002AFFCC /* ShadowSOCKClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShadowSOCKClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A22DF51CB6B42D002AFFCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		73A22DF71CB6B42D002AFFCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		73A22DF81CB6B42D002AFFCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		73A22DFA1CB6B42D002AFFCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		73A22DFB1CB6B42D002AFFCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		73A22DFE1CB6B42D002AFFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		73A22E001CB6B42D002AFFCC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		73A22E031CB6B42D002AFFCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		73A22E051CB6B42D002AFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A22E0A1CB6B42D002AFFCC /* ShadowSOCKClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowSOCKClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A22E0E1CB6B42D002AFFCC /* ShadowSOCKClientTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowSOCKClientTests.m; sourceTree = "<group>"; };
+		73A22E101CB6B42D002AFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A22E151CB6B42D002AFFCC /* ShadowSOCKClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShadowSOCKClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		73A22E191CB6B42D002AFFCC /* ShadowSOCKClientUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShadowSOCKClientUITests.m; sourceTree = "<group>"; };
+		73A22E1B1CB6B42D002AFFCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73A22E271CB6B4FE002AFFCC /* MyURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyURLProtocol.h; sourceTree = "<group>"; };
+		73A22E281CB6B4FE002AFFCC /* MyURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyURLProtocol.m; sourceTree = "<group>"; };
+		73A22E311CB6B575002AFFCC /* ev.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ev.c; sourceTree = "<group>"; };
+		73A22EB81CB6B607002AFFCC /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		73A22EB91CB6BCB3002AFFCC /* atom.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = atom.c; sourceTree = "<group>"; };
+		73A22EBA1CB6BCB3002AFFCC /* atom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = atom.h; sourceTree = "<group>"; };
+		73A22EBB1CB6BCB3002AFFCC /* auth.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = auth.c; sourceTree = "<group>"; };
+		73A22EBC1CB6BCB3002AFFCC /* auth.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = auth.h; sourceTree = "<group>"; };
+		73A22EBD1CB6BCB3002AFFCC /* CHANGES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGES; sourceTree = "<group>"; };
+		73A22EBE1CB6BCB3002AFFCC /* chunk.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = chunk.c; sourceTree = "<group>"; };
+		73A22EBF1CB6BCB3002AFFCC /* chunk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chunk.h; sourceTree = "<group>"; };
+		73A22EC01CB6BCB3002AFFCC /* client.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = client.c; sourceTree = "<group>"; };
+		73A22EC11CB6BCB3002AFFCC /* client.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = client.h; sourceTree = "<group>"; };
+		73A22EC21CB6BCB3002AFFCC /* config.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = config.c; sourceTree = "<group>"; };
+		73A22EC31CB6BCB3002AFFCC /* config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
+		73A22EC41CB6BCB3002AFFCC /* config.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.sample; sourceTree = "<group>"; };
+		73A22EC51CB6BCB3002AFFCC /* COPYING */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = COPYING; sourceTree = "<group>"; };
+		73A22EC61CB6BCB3002AFFCC /* diskcache.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = diskcache.c; sourceTree = "<group>"; };
+		73A22EC71CB6BCB3002AFFCC /* diskcache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = diskcache.h; sourceTree = "<group>"; };
+		73A22EC81CB6BCB3002AFFCC /* dns.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = dns.c; sourceTree = "<group>"; };
+		73A22EC91CB6BCB3002AFFCC /* dns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dns.h; sourceTree = "<group>"; };
+		73A22ECA1CB6BCB3002AFFCC /* event.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = event.c; sourceTree = "<group>"; };
+		73A22ECB1CB6BCB3002AFFCC /* event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = event.h; sourceTree = "<group>"; };
+		73A22ECC1CB6BCB3002AFFCC /* forbidden.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = forbidden.c; sourceTree = "<group>"; };
+		73A22ECD1CB6BCB3002AFFCC /* forbidden.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = forbidden.h; sourceTree = "<group>"; };
+		73A22ECE1CB6BCB3002AFFCC /* forbidden.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = forbidden.sample; sourceTree = "<group>"; };
+		73A22ECF1CB6BCB3002AFFCC /* fts_compat.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fts_compat.c; sourceTree = "<group>"; };
+		73A22ED01CB6BCB3002AFFCC /* fts_compat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fts_compat.h; sourceTree = "<group>"; };
+		73A22ED11CB6BCB3002AFFCC /* ftsimport.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ftsimport.c; sourceTree = "<group>"; };
+		73A22ED21CB6BCB3002AFFCC /* ftsimport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ftsimport.h; sourceTree = "<group>"; };
+		73A22ED31CB6BCB3002AFFCC /* http_parse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http_parse.c; sourceTree = "<group>"; };
+		73A22ED41CB6BCB3002AFFCC /* http_parse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http_parse.h; sourceTree = "<group>"; };
+		73A22ED51CB6BCB3002AFFCC /* http.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = http.c; sourceTree = "<group>"; };
+		73A22ED61CB6BCB3002AFFCC /* http.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = http.h; sourceTree = "<group>"; };
+		73A22ED71CB6BCB3002AFFCC /* INSTALL */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = INSTALL; sourceTree = "<group>"; };
+		73A22ED81CB6BCB3002AFFCC /* io.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = io.c; sourceTree = "<group>"; };
+		73A22ED91CB6BCB3002AFFCC /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = io.h; sourceTree = "<group>"; };
+		73A22EDA1CB6BCB3002AFFCC /* local.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = local.c; sourceTree = "<group>"; };
+		73A22EDB1CB6BCB3002AFFCC /* local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = local.h; sourceTree = "<group>"; };
+		73A22EDC1CB6BCB3002AFFCC /* localindex.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = localindex.html; sourceTree = "<group>"; };
+		73A22EDD1CB6BCB3002AFFCC /* log.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = log.c; sourceTree = "<group>"; };
+		73A22EDE1CB6BCB3002AFFCC /* log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = log.h; sourceTree = "<group>"; };
+		73A22EDF1CB6BCB3002AFFCC /* main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		73A22EE01CB6BCB3002AFFCC /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
+		73A22EE11CB6BCB3002AFFCC /* md5.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5.c; sourceTree = "<group>"; };
+		73A22EE21CB6BCB3002AFFCC /* md5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5.h; sourceTree = "<group>"; };
+		73A22EE31CB6BCB3002AFFCC /* md5import.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = md5import.c; sourceTree = "<group>"; };
+		73A22EE41CB6BCB3002AFFCC /* md5import.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = md5import.h; sourceTree = "<group>"; };
+		73A22EE51CB6BCB3002AFFCC /* mingw.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mingw.c; sourceTree = "<group>"; };
+		73A22EE61CB6BCB3002AFFCC /* mingw.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mingw.h; sourceTree = "<group>"; };
+		73A22EE71CB6BCB3002AFFCC /* object.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = object.c; sourceTree = "<group>"; };
+		73A22EE81CB6BCB3002AFFCC /* object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = object.h; sourceTree = "<group>"; };
+		73A22EE91CB6BCB3002AFFCC /* parse_time.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = parse_time.c; sourceTree = "<group>"; };
+		73A22EEA1CB6BCB3002AFFCC /* parse_time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parse_time.h; sourceTree = "<group>"; };
+		73A22EEB1CB6BCB3002AFFCC /* polipo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = polipo.h; sourceTree = "<group>"; };
+		73A22EEC1CB6BCB3002AFFCC /* polipo.man */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polipo.man; sourceTree = "<group>"; };
+		73A22EED1CB6BCB3002AFFCC /* polipo.texi */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = polipo.texi; sourceTree = "<group>"; };
+		73A22EEE1CB6BCB3002AFFCC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		73A22EEF1CB6BCB3002AFFCC /* README.Windows */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.Windows; sourceTree = "<group>"; };
+		73A22EF01CB6BCB3002AFFCC /* server.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = server.c; sourceTree = "<group>"; };
+		73A22EF11CB6BCB3002AFFCC /* server.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = server.h; sourceTree = "<group>"; };
+		73A22EF21CB6BCB3002AFFCC /* socks.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = socks.c; sourceTree = "<group>"; };
+		73A22EF31CB6BCB3002AFFCC /* socks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socks.h; sourceTree = "<group>"; };
+		73A22EF41CB6BCB3002AFFCC /* tunnel.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = tunnel.c; sourceTree = "<group>"; };
+		73A22EF51CB6BCB3002AFFCC /* tunnel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tunnel.h; sourceTree = "<group>"; };
+		73A22EF61CB6BCB3002AFFCC /* util.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = util.c; sourceTree = "<group>"; };
+		73A22EF71CB6BCB3002AFFCC /* util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = util.h; sourceTree = "<group>"; };
+		73A22F231CB6C2B2002AFFCC /* socks5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socks5.h; sourceTree = "<group>"; };
+		73A22F7C1CB75443002AFFCC /* encrypt.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = encrypt.c; sourceTree = "<group>"; };
+		73A22F7D1CB75443002AFFCC /* encrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = encrypt.h; sourceTree = "<group>"; };
+		73A22F811CB754C7002AFFCC /* table.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = table.h; sourceTree = "<group>"; };
+		73A22F821CB754C7002AFFCC /* table.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = table.m; sourceTree = "<group>"; };
+		73A22F881CB759B7002AFFCC /* local.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = local.h; sourceTree = "<group>"; };
+		73A22F891CB759B7002AFFCC /* local.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = local.m; sourceTree = "<group>"; };
+		73A22F8B1CB75B3E002AFFCC /* ShadowsocksRunner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShadowsocksRunner.h; sourceTree = "<group>"; };
+		73A22F8C1CB75B3E002AFFCC /* ShadowsocksRunner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShadowsocksRunner.m; sourceTree = "<group>"; };
+		8CC79A722E4B34CBFA592392 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED5C0E6A726B8BB5307BEABB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		73A22DEE1CB6B42D002AFFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				906CD5AD36E16B727FEAD84D /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E071CB6B42D002AFFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E121CB6B42D002AFFCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC7D67C84B1C70ED16E7A9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CC79A722E4B34CBFA592392 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		573308D9FBACF979E65E8046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2D90E711250091876143EC98 /* Pods.debug.xcconfig */,
+				ED5C0E6A726B8BB5307BEABB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		73A22DE81CB6B42D002AFFCC = {
+			isa = PBXGroup;
+			children = (
+				73A22DF31CB6B42D002AFFCC /* ShadowSOCKClient */,
+				73A22E0D1CB6B42D002AFFCC /* ShadowSOCKClientTests */,
+				73A22E181CB6B42D002AFFCC /* ShadowSOCKClientUITests */,
+				73A22DF21CB6B42D002AFFCC /* Products */,
+				573308D9FBACF979E65E8046 /* Pods */,
+				1FC7D67C84B1C70ED16E7A9F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		73A22DF21CB6B42D002AFFCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				73A22DF11CB6B42D002AFFCC /* ShadowSOCKClient.app */,
+				73A22E0A1CB6B42D002AFFCC /* ShadowSOCKClientTests.xctest */,
+				73A22E151CB6B42D002AFFCC /* ShadowSOCKClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		73A22DF31CB6B42D002AFFCC /* ShadowSOCKClient */ = {
+			isa = PBXGroup;
+			children = (
+				73A22F8B1CB75B3E002AFFCC /* ShadowsocksRunner.h */,
+				73A22F8C1CB75B3E002AFFCC /* ShadowsocksRunner.m */,
+				73A22F1E1CB6C2B2002AFFCC /* core */,
+				73A22E531CB6B5B6002AFFCC /* polipo */,
+				73A22E2A1CB6B575002AFFCC /* libev */,
+				73A22E271CB6B4FE002AFFCC /* MyURLProtocol.h */,
+				73A22E281CB6B4FE002AFFCC /* MyURLProtocol.m */,
+				73A22DF71CB6B42D002AFFCC /* AppDelegate.h */,
+				73A22DF81CB6B42D002AFFCC /* AppDelegate.m */,
+				73A22DFA1CB6B42D002AFFCC /* ViewController.h */,
+				73A22DFB1CB6B42D002AFFCC /* ViewController.m */,
+				73A22DFD1CB6B42D002AFFCC /* Main.storyboard */,
+				73A22E001CB6B42D002AFFCC /* Assets.xcassets */,
+				73A22E021CB6B42D002AFFCC /* LaunchScreen.storyboard */,
+				73A22E051CB6B42D002AFFCC /* Info.plist */,
+				73A22DF41CB6B42D002AFFCC /* Supporting Files */,
+				737A804C1CBCDF340099723D /* SSClientConfigure.h */,
+				737A804D1CBCDF340099723D /* SSClientConfigure.m */,
+			);
+			path = ShadowSOCKClient;
+			sourceTree = "<group>";
+		};
+		73A22DF41CB6B42D002AFFCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				73A22DF51CB6B42D002AFFCC /* main.m */,
+				73A22EB81CB6B607002AFFCC /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		73A22E0D1CB6B42D002AFFCC /* ShadowSOCKClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				73A22E0E1CB6B42D002AFFCC /* ShadowSOCKClientTests.m */,
+				73A22E101CB6B42D002AFFCC /* Info.plist */,
+			);
+			path = ShadowSOCKClientTests;
+			sourceTree = "<group>";
+		};
+		73A22E181CB6B42D002AFFCC /* ShadowSOCKClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				73A22E191CB6B42D002AFFCC /* ShadowSOCKClientUITests.m */,
+				73A22E1B1CB6B42D002AFFCC /* Info.plist */,
+			);
+			path = ShadowSOCKClientUITests;
+			sourceTree = "<group>";
+		};
+		73A22E2A1CB6B575002AFFCC /* libev */ = {
+			isa = PBXGroup;
+			children = (
+				73A22E311CB6B575002AFFCC /* ev.c */,
+			);
+			path = libev;
+			sourceTree = "<group>";
+		};
+		73A22E531CB6B5B6002AFFCC /* polipo */ = {
+			isa = PBXGroup;
+			children = (
+				73A22EB91CB6BCB3002AFFCC /* atom.c */,
+				73A22EBA1CB6BCB3002AFFCC /* atom.h */,
+				73A22EBB1CB6BCB3002AFFCC /* auth.c */,
+				73A22EBC1CB6BCB3002AFFCC /* auth.h */,
+				73A22EBD1CB6BCB3002AFFCC /* CHANGES */,
+				73A22EBE1CB6BCB3002AFFCC /* chunk.c */,
+				73A22EBF1CB6BCB3002AFFCC /* chunk.h */,
+				73A22EC01CB6BCB3002AFFCC /* client.c */,
+				73A22EC11CB6BCB3002AFFCC /* client.h */,
+				73A22EC21CB6BCB3002AFFCC /* config.c */,
+				73A22EC31CB6BCB3002AFFCC /* config.h */,
+				73A22EC41CB6BCB3002AFFCC /* config.sample */,
+				73A22EC51CB6BCB3002AFFCC /* COPYING */,
+				73A22EC61CB6BCB3002AFFCC /* diskcache.c */,
+				73A22EC71CB6BCB3002AFFCC /* diskcache.h */,
+				73A22EC81CB6BCB3002AFFCC /* dns.c */,
+				73A22EC91CB6BCB3002AFFCC /* dns.h */,
+				73A22ECA1CB6BCB3002AFFCC /* event.c */,
+				73A22ECB1CB6BCB3002AFFCC /* event.h */,
+				73A22ECC1CB6BCB3002AFFCC /* forbidden.c */,
+				73A22ECD1CB6BCB3002AFFCC /* forbidden.h */,
+				73A22ECE1CB6BCB3002AFFCC /* forbidden.sample */,
+				73A22ECF1CB6BCB3002AFFCC /* fts_compat.c */,
+				73A22ED01CB6BCB3002AFFCC /* fts_compat.h */,
+				73A22ED11CB6BCB3002AFFCC /* ftsimport.c */,
+				73A22ED21CB6BCB3002AFFCC /* ftsimport.h */,
+				73A22ED31CB6BCB3002AFFCC /* http_parse.c */,
+				73A22ED41CB6BCB3002AFFCC /* http_parse.h */,
+				73A22ED51CB6BCB3002AFFCC /* http.c */,
+				73A22ED61CB6BCB3002AFFCC /* http.h */,
+				73A22ED71CB6BCB3002AFFCC /* INSTALL */,
+				73A22ED81CB6BCB3002AFFCC /* io.c */,
+				73A22ED91CB6BCB3002AFFCC /* io.h */,
+				73A22EDA1CB6BCB3002AFFCC /* local.c */,
+				73A22EDB1CB6BCB3002AFFCC /* local.h */,
+				73A22EDC1CB6BCB3002AFFCC /* localindex.html */,
+				73A22EDD1CB6BCB3002AFFCC /* log.c */,
+				73A22EDE1CB6BCB3002AFFCC /* log.h */,
+				73A22EDF1CB6BCB3002AFFCC /* main.c */,
+				73A22EE01CB6BCB3002AFFCC /* Makefile */,
+				73A22EE11CB6BCB3002AFFCC /* md5.c */,
+				73A22EE21CB6BCB3002AFFCC /* md5.h */,
+				73A22EE31CB6BCB3002AFFCC /* md5import.c */,
+				73A22EE41CB6BCB3002AFFCC /* md5import.h */,
+				73A22EE51CB6BCB3002AFFCC /* mingw.c */,
+				73A22EE61CB6BCB3002AFFCC /* mingw.h */,
+				73A22EE71CB6BCB3002AFFCC /* object.c */,
+				73A22EE81CB6BCB3002AFFCC /* object.h */,
+				73A22EE91CB6BCB3002AFFCC /* parse_time.c */,
+				73A22EEA1CB6BCB3002AFFCC /* parse_time.h */,
+				73A22EEB1CB6BCB3002AFFCC /* polipo.h */,
+				73A22EEC1CB6BCB3002AFFCC /* polipo.man */,
+				73A22EED1CB6BCB3002AFFCC /* polipo.texi */,
+				73A22EEE1CB6BCB3002AFFCC /* README */,
+				73A22EEF1CB6BCB3002AFFCC /* README.Windows */,
+				73A22EF01CB6BCB3002AFFCC /* server.c */,
+				73A22EF11CB6BCB3002AFFCC /* server.h */,
+				73A22EF21CB6BCB3002AFFCC /* socks.c */,
+				73A22EF31CB6BCB3002AFFCC /* socks.h */,
+				73A22EF41CB6BCB3002AFFCC /* tunnel.c */,
+				73A22EF51CB6BCB3002AFFCC /* tunnel.h */,
+				73A22EF61CB6BCB3002AFFCC /* util.c */,
+				73A22EF71CB6BCB3002AFFCC /* util.h */,
+			);
+			path = polipo;
+			sourceTree = "<group>";
+		};
+		73A22F1E1CB6C2B2002AFFCC /* core */ = {
+			isa = PBXGroup;
+			children = (
+				73A22F881CB759B7002AFFCC /* local.h */,
+				73A22F891CB759B7002AFFCC /* local.m */,
+				73A22F811CB754C7002AFFCC /* table.h */,
+				73A22F821CB754C7002AFFCC /* table.m */,
+				73A22F7C1CB75443002AFFCC /* encrypt.c */,
+				73A22F7D1CB75443002AFFCC /* encrypt.h */,
+				73A22F231CB6C2B2002AFFCC /* socks5.h */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		73A22DF01CB6B42D002AFFCC /* ShadowSOCKClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A22E1E1CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClient" */;
+			buildPhases = (
+				F0E76556A67B50234BA47719 /* Check Pods Manifest.lock */,
+				73A22DED1CB6B42D002AFFCC /* Sources */,
+				73A22DEE1CB6B42D002AFFCC /* Frameworks */,
+				73A22DEF1CB6B42D002AFFCC /* Resources */,
+				5496B9BA3547EA167AFCCB86 /* Embed Pods Frameworks */,
+				654D2D5DA1A52CC480264201 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShadowSOCKClient;
+			productName = ShadowSOCKClient;
+			productReference = 73A22DF11CB6B42D002AFFCC /* ShadowSOCKClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		73A22E091CB6B42D002AFFCC /* ShadowSOCKClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A22E211CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClientTests" */;
+			buildPhases = (
+				73A22E061CB6B42D002AFFCC /* Sources */,
+				73A22E071CB6B42D002AFFCC /* Frameworks */,
+				73A22E081CB6B42D002AFFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A22E0C1CB6B42D002AFFCC /* PBXTargetDependency */,
+			);
+			name = ShadowSOCKClientTests;
+			productName = ShadowSOCKClientTests;
+			productReference = 73A22E0A1CB6B42D002AFFCC /* ShadowSOCKClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		73A22E141CB6B42D002AFFCC /* ShadowSOCKClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73A22E241CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClientUITests" */;
+			buildPhases = (
+				73A22E111CB6B42D002AFFCC /* Sources */,
+				73A22E121CB6B42D002AFFCC /* Frameworks */,
+				73A22E131CB6B42D002AFFCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				73A22E171CB6B42D002AFFCC /* PBXTargetDependency */,
+			);
+			name = ShadowSOCKClientUITests;
+			productName = ShadowSOCKClientUITests;
+			productReference = 73A22E151CB6B42D002AFFCC /* ShadowSOCKClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		73A22DE91CB6B42D002AFFCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = linyu;
+				TargetAttributes = {
+					73A22DF01CB6B42D002AFFCC = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					73A22E091CB6B42D002AFFCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 73A22DF01CB6B42D002AFFCC;
+					};
+					73A22E141CB6B42D002AFFCC = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 73A22DF01CB6B42D002AFFCC;
+					};
+				};
+			};
+			buildConfigurationList = 73A22DEC1CB6B42D002AFFCC /* Build configuration list for PBXProject "ShadowSOCKClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 73A22DE81CB6B42D002AFFCC;
+			productRefGroup = 73A22DF21CB6B42D002AFFCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73A22DF01CB6B42D002AFFCC /* ShadowSOCKClient */,
+				73A22E091CB6B42D002AFFCC /* ShadowSOCKClientTests */,
+				73A22E141CB6B42D002AFFCC /* ShadowSOCKClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73A22DEF1CB6B42D002AFFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A22F171CB6BCB3002AFFCC /* README in Resources */,
+				73A22EFF1CB6BCB3002AFFCC /* COPYING in Resources */,
+				73A22F161CB6BCB3002AFFCC /* polipo.texi in Resources */,
+				73A22F151CB6BCB3002AFFCC /* polipo.man in Resources */,
+				73A22F181CB6BCB3002AFFCC /* README.Windows in Resources */,
+				73A22EFA1CB6BCB3002AFFCC /* CHANGES in Resources */,
+				73A22E041CB6B42D002AFFCC /* LaunchScreen.storyboard in Resources */,
+				73A22E011CB6B42D002AFFCC /* Assets.xcassets in Resources */,
+				73A22F0C1CB6BCB3002AFFCC /* localindex.html in Resources */,
+				73A22EFE1CB6BCB3002AFFCC /* config.sample in Resources */,
+				73A22DFF1CB6B42D002AFFCC /* Main.storyboard in Resources */,
+				73A22F091CB6BCB3002AFFCC /* INSTALL in Resources */,
+				73A22F041CB6BCB3002AFFCC /* forbidden.sample in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E081CB6B42D002AFFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E131CB6B42D002AFFCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5496B9BA3547EA167AFCCB86 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		654D2D5DA1A52CC480264201 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F0E76556A67B50234BA47719 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73A22DED1CB6B42D002AFFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A22F0F1CB6BCB3002AFFCC /* Makefile in Sources */,
+				73A22EF91CB6BCB3002AFFCC /* auth.c in Sources */,
+				73A22EFB1CB6BCB3002AFFCC /* chunk.c in Sources */,
+				73A22F131CB6BCB3002AFFCC /* object.c in Sources */,
+				73A22F0A1CB6BCB3002AFFCC /* io.c in Sources */,
+				73A22F0B1CB6BCB3002AFFCC /* local.c in Sources */,
+				73A22EFC1CB6BCB3002AFFCC /* client.c in Sources */,
+				73A22F011CB6BCB3002AFFCC /* dns.c in Sources */,
+				73A22F061CB6BCB3002AFFCC /* ftsimport.c in Sources */,
+				73A22DFC1CB6B42D002AFFCC /* ViewController.m in Sources */,
+				73A22F0E1CB6BCB3002AFFCC /* main.c in Sources */,
+				737A804E1CBCDF340099723D /* SSClientConfigure.m in Sources */,
+				73A22F071CB6BCB3002AFFCC /* http_parse.c in Sources */,
+				73A22E291CB6B4FE002AFFCC /* MyURLProtocol.m in Sources */,
+				73A22F101CB6BCB3002AFFCC /* md5.c in Sources */,
+				73A22EF81CB6BCB3002AFFCC /* atom.c in Sources */,
+				73A22F021CB6BCB3002AFFCC /* event.c in Sources */,
+				73A22F111CB6BCB3002AFFCC /* md5import.c in Sources */,
+				73A22F8D1CB75B3E002AFFCC /* ShadowsocksRunner.m in Sources */,
+				73A22F121CB6BCB3002AFFCC /* mingw.c in Sources */,
+				73A22F191CB6BCB3002AFFCC /* server.c in Sources */,
+				73A22F141CB6BCB3002AFFCC /* parse_time.c in Sources */,
+				73A22E461CB6B575002AFFCC /* ev.c in Sources */,
+				73A22F1C1CB6BCB3002AFFCC /* util.c in Sources */,
+				73A22F1B1CB6BCB3002AFFCC /* tunnel.c in Sources */,
+				73A22F7E1CB75443002AFFCC /* encrypt.c in Sources */,
+				73A22F841CB754C7002AFFCC /* table.m in Sources */,
+				73A22DF91CB6B42D002AFFCC /* AppDelegate.m in Sources */,
+				73A22DF61CB6B42D002AFFCC /* main.m in Sources */,
+				73A22F051CB6BCB3002AFFCC /* fts_compat.c in Sources */,
+				73A22F001CB6BCB3002AFFCC /* diskcache.c in Sources */,
+				73A22EFD1CB6BCB3002AFFCC /* config.c in Sources */,
+				73A22F0D1CB6BCB3002AFFCC /* log.c in Sources */,
+				73A22F1A1CB6BCB3002AFFCC /* socks.c in Sources */,
+				73A22F031CB6BCB3002AFFCC /* forbidden.c in Sources */,
+				73A22F8A1CB759B7002AFFCC /* local.m in Sources */,
+				73A22F081CB6BCB3002AFFCC /* http.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E061CB6B42D002AFFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A22E0F1CB6B42D002AFFCC /* ShadowSOCKClientTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A22E111CB6B42D002AFFCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73A22E1A1CB6B42D002AFFCC /* ShadowSOCKClientUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		73A22E0C1CB6B42D002AFFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A22DF01CB6B42D002AFFCC /* ShadowSOCKClient */;
+			targetProxy = 73A22E0B1CB6B42D002AFFCC /* PBXContainerItemProxy */;
+		};
+		73A22E171CB6B42D002AFFCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 73A22DF01CB6B42D002AFFCC /* ShadowSOCKClient */;
+			targetProxy = 73A22E161CB6B42D002AFFCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		73A22DFD1CB6B42D002AFFCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A22DFE1CB6B42D002AFFCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		73A22E021CB6B42D002AFFCC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				73A22E031CB6B42D002AFFCC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		73A22E1C1CB6B42D002AFFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		73A22E1D1CB6B42D002AFFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		73A22E1F1CB6B42D002AFFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D90E711250091876143EC98 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = ShadowSOCKClient/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/libsodium\"",
+					"$(PROJECT_DIR)/ShadowSOCKClient/libev",
+				);
+				INFOPLIST_FILE = ShadowSOCKClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		73A22E201CB6B42D002AFFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED5C0E6A726B8BB5307BEABB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PREFIX_HEADER = ShadowSOCKClient/PrefixHeader.pch;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/libsodium\"",
+					"$(PROJECT_DIR)/ShadowSOCKClient/libev",
+				);
+				INFOPLIST_FILE = ShadowSOCKClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		73A22E221CB6B42D002AFFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShadowSOCKClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowSOCKClient.app/ShadowSOCKClient";
+			};
+			name = Debug;
+		};
+		73A22E231CB6B42D002AFFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ShadowSOCKClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShadowSOCKClient.app/ShadowSOCKClient";
+			};
+			name = Release;
+		};
+		73A22E251CB6B42D002AFFCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShadowSOCKClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShadowSOCKClient;
+			};
+			name = Debug;
+		};
+		73A22E261CB6B42D002AFFCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ShadowSOCKClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yy.ShadowSOCKClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShadowSOCKClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		73A22DEC1CB6B42D002AFFCC /* Build configuration list for PBXProject "ShadowSOCKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A22E1C1CB6B42D002AFFCC /* Debug */,
+				73A22E1D1CB6B42D002AFFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A22E1E1CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A22E1F1CB6B42D002AFFCC /* Debug */,
+				73A22E201CB6B42D002AFFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A22E211CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A22E221CB6B42D002AFFCC /* Debug */,
+				73A22E231CB6B42D002AFFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73A22E241CB6B42D002AFFCC /* Build configuration list for PBXNativeTarget "ShadowSOCKClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73A22E251CB6B42D002AFFCC /* Debug */,
+				73A22E261CB6B42D002AFFCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 73A22DE91CB6B42D002AFFCC /* Project object */;
+}

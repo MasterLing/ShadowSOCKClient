@@ -1,0 +1,13 @@
+PODS:
+  - libsodium (1.0.3)
+  - OpenSSL-for-iOS (1.0.2.d.1)
+
+DEPENDENCIES:
+  - libsodium (~> 1.0.3)
+  - OpenSSL-for-iOS (~> 1.0.2.d.1)
+
+SPEC CHECKSUMS:
+  libsodium: be547e31dc75725629acc5717dc0a40fc05ef243
+  OpenSSL-for-iOS: d7a30add88a1969b052135adbe48452af231ed32
+
+COCOAPODS: 0.39.0
